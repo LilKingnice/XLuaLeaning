@@ -24,6 +24,7 @@ for _, value in pairs(itemList) do
     ItemData[value.id]=value
 end
 --从只能通过位置来读取值，转换到可以通过数值中的id直接获取值
-print(ItemData[105].name..ItemData[105].type..ItemData[105].tips)
+
+--print(ItemData[105].name..ItemData[105].type..ItemData[105].tips)
 
 

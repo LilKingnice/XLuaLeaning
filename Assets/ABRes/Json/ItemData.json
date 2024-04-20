@@ -1,8 +1,8 @@
 [
-{"id":101,"name":"手套","icon":"Icon_1","type":1,"tips":"增强免疫"},
-{"id":102,"name":"弓箭","icon":"Icon_2","type":1,"tips":"远程武器"},
-{"id":103,"name":"蓝药","icon":"Icon_3","type":2,"tips":"增强魔法药水"},
-{"id":104,"name":"红药","icon":"Icon_4","type":2,"tips":"增强血量药水"},
-{"id":105,"name":"红宝石","icon":"Icon_5","type":3,"tips":"合成防具的材料"},
-{"id":106,"name":"蓝宝石","icon":"Icon_6","type":3,"tips":"合成武器的材料"}
+{"id":1,"name":"手套","icon":"icon_1","type":1,"tips":"增强免疫"},
+{"id":2,"name":"弓箭","icon":"icon_2","type":1,"tips":"远程武器"},
+{"id":3,"name":"蓝药","icon":"icon_3","type":2,"tips":"增强魔法药水"},
+{"id":4,"name":"红药","icon":"icon_4","type":2,"tips":"增强血量药水"},
+{"id":5,"name":"红宝石","icon":"icon_5","type":3,"tips":"合成防具的材料"},
+{"id":6,"name":"蓝宝石","icon":"icon_6","type":3,"tips":"合成武器的材料"}
 ]

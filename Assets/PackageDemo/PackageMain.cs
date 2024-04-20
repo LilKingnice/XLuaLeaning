@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
+
 
 /// <summary>
 /// 用于xlua背包项目的C#主入口
@@ -17,6 +19,5 @@ public class PackageMain : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-          
     }
 }

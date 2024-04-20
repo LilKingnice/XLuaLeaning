@@ -38,6 +38,9 @@ Button = UI.Button
 Toggle = UI.Toggle
 ScrollRect = UI.ScrollRect
 
+--找一次 都可以调用
+Canvas = GameObject.Find("Canvas").transform
+
 --自己写的C#脚本相关
 --直接得到AB包管理器的单例对象
 ABMgr = CS.ABmanager.Instance

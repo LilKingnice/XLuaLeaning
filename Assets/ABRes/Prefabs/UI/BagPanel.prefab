@@ -273,11 +273,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
-    m_Left: 0
+    m_Left: 22
     m_Right: 0
     m_Top: 20
     m_Bottom: 0
-  m_ChildAlignment: 1
+  m_ChildAlignment: 0
   m_StartCorner: 0
   m_StartAxis: 0
   m_CellSize: {x: 120, y: 120}
@@ -398,7 +398,7 @@ GameObject:
   - component: {fileID: 1924369168728082539}
   - component: {fileID: 1924369168728082540}
   m_Layer: 5
-  m_Name: Toggle
+  m_Name: togEquip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -557,7 +557,7 @@ GameObject:
   - component: {fileID: 1924369168834719786}
   - component: {fileID: 1924369168834719787}
   m_Layer: 5
-  m_Name: Toggle (1)
+  m_Name: togItem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -811,7 +811,7 @@ GameObject:
   - component: {fileID: 1924369169167481517}
   - component: {fileID: 1924369169167481518}
   m_Layer: 5
-  m_Name: Toggle (2)
+  m_Name: togGem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -897,7 +897,7 @@ GameObject:
   - component: {fileID: 1924369169264184562}
   - component: {fileID: 1924369169264184561}
   m_Layer: 5
-  m_Name: ItemsView
+  m_Name: svBagBackGround
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1349,7 +1349,7 @@ GameObject:
   - component: {fileID: 1924369169804445334}
   - component: {fileID: 1924369169804445333}
   m_Layer: 5
-  m_Name: Scroll View
+  m_Name: svBag
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

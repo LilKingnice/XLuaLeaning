@@ -13,14 +13,16 @@ function PlayerData:Init()
 
     --存储物品信息，不管存到哪里都只会存储物品的id和数量
     --示例代码，随便添加一点东西进去
-    table.insert(self.equips,{id=101,num=5})
-    table.insert(self.equips,{id=102,num=1})
+    table.insert(self.equips,{id=1,num=5})
+    table.insert(self.equips,{id=2,num=1})
 
-    table.insert(self.items,{id=103,num=8})
-    table.insert(self.items,{id=104,num=2})
+    table.insert(self.items,{id=3,num=8})
+    table.insert(self.items,{id=4,num=2})
 
-    table.insert(self.gems,{id=105,num=11})
-    table.insert(self.gems,{id=106,num=12})
+    table.insert(self.gems,{id=5,num=11})
+    table.insert(self.gems,{id=6,num=12})
 end
-PlayerData:Init()
-print(PlayerData.equips[1].id.." "..PlayerData.equips[1].num)
+
+--要想在代码中调用就需要先调用一次Init()方法
+--PlayerData:Init()
+--print(PlayerData.equips[1].id.." "..PlayerData.equips[1].num)
