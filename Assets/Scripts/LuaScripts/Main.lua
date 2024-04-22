@@ -42,7 +42,7 @@ end
 --require("LuaCallSpecialTreatment")--lua中的一些特殊调用(特性)
 
 
---require("luaCallCroutine")--lua调用C#协程
+--require("luaCallCoroutine")--lua调用C#协程
 
 
 require("luaCallGeneric")--lua调用C#泛型

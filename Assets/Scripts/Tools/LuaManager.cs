@@ -33,11 +33,10 @@ public class LuaManager : BaseSingletonWithoutMono<LuaManager>
         env = new LuaEnv();
         
         //env.AddLoader(MyCustomLoader);
-        
-        env.AddLoader(PackageLoader);
-
         //env.AddLoader(MyCustomABLoader);//从AB包中加载Lua文件，日常开发中不常使用，只有最后导出项目再启用
         
+        env.AddLoader(PackageLoader);
+        //env.AddLoader(MyCustomABLoader);//从AB包中加载
     }
 
     
@@ -53,10 +52,8 @@ public class LuaManager : BaseSingletonWithoutMono<LuaManager>
         DoString(str);
     }
     
-    
-    
     /// <summary>
-    /// lua文件重定向
+    /// lua文件重定向本地指定文件夹
     /// </summary>
     /// <param name="fileName"></param>
     /// <returns></returns>
@@ -79,14 +76,16 @@ public class LuaManager : BaseSingletonWithoutMono<LuaManager>
     }
 
     /// <summary>
-    /// 背包项目的lua重定向
+    /// 背包项目的lua重定向本地指定文件夹
     /// </summary>
     /// <param name="fileName">文件名</param>
     /// <returns></returns>
     public byte[] PackageLoader(ref string fileName)
     {
-        //自定义的路径
-        string path=Application.dataPath+"/PackageDemo"+"/Lua/"+fileName+".lua";
+        //背包系统lua脚本的自定义的路径
+        //string path=Application.dataPath+"/PackageDemo"+"/Lua/"+fileName+".lua";
+        string path=Application.dataPath+"/Hotfix/"+fileName+".lua";//hotfix热更新脚本位置定义。，
+        
         //Debug.Log(path);
         
         //先判断是否包含这个文件

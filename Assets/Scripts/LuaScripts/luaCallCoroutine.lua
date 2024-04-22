@@ -2,7 +2,7 @@ print("*********Lua调用C# 协程相关知识点***********")
 --xlua提供的一个工具表
 --一定是要通过require调用之后 才能用
 util = require("xlua.util")
---C#中协程启动都是通过继承了Mono的类 通过里面的启动函数StartCoroutine
+--C#中协程启动都是通过访问继承了Mono的类 使用里面的StartCoroutine函数
 
 GameObject = CS.UnityEngine.GameObject
 WaitForSeconds = CS.UnityEngine.WaitForSeconds
